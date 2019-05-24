@@ -1,0 +1,923 @@
+---------------------------------------------------------------
+[ 2018-04-26T00:43:26+08:00 ] 172.26.33.75 47.92.37.30 POST /?q=user%2Fpassword&name%5B%23post_render%5D%5B%5D=passthru&name%5B%23markup%5D=whoami&name%5B%23type%5D=markup
+[ info ] www.mo1120.com/?q=user%2Fpassword&name%5B%23post_render%5D%5B%5D=passthru&name%5B%23markup%5D=whoami&name%5B%23type%5D=markup [运行时间：0.042161s][吞吐率：23.72req/s] [内存消耗：3,026.35kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '47',
+  'connection' => 'keep-alive',
+  'host' => 'www.mo1120.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'q' => 'user/password',
+  'name' => 
+  array (
+    '#post_render' => 
+    array (
+      0 => 'passthru',
+    ),
+    '#markup' => 'whoami',
+    '#type' => 'markup',
+  ),
+  '_triggering_element_name' => 'name',
+  'form_id' => 'user_pass',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '47.92.37.30'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('47.92.37.30' , 1524674606) [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[ 2018-04-26T00:47:58+08:00 ] 172.26.33.75 123.125.71.43 GET /
+[ info ] www.mo1120.com/ [运行时间：0.044795s][吞吐率：22.32req/s] [内存消耗：3,022.81kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000338s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '123.125.71.43'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('123.125.71.43' , 1524674878) [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2018-04-26T01:06:46+08:00 ] 172.26.33.75 54.67.59.131 GET /
+[ info ] www.mo1120.com/ [运行时间：0.043887s][吞吐率：22.79req/s] [内存消耗：3,021.76kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '54.67.59.131'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('54.67.59.131' , 1524676006) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000151s ]
+---------------------------------------------------------------
+[ 2018-04-26T03:28:21+08:00 ] 172.26.33.75 101.132.106.40 GET /
+[ info ] www.mo1120.com/ [运行时间：0.042786s][吞吐率：23.37req/s] [内存消耗：3,021.99kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.mo1120.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000306s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '101.132.106.40'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('101.132.106.40' , 1524684501) [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000158s ]
+---------------------------------------------------------------
+[ 2018-04-26T04:05:52+08:00 ] 172.26.33.75 207.46.13.116 GET /
+[ info ] www.mo1120.com/ [运行时间：0.045066s][吞吐率：22.19req/s] [内存消耗：3,024.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'www.mo1120.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '207.46.13.116'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('207.46.13.116' , 1524686752) [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000151s ]
+---------------------------------------------------------------
+[ 2018-04-26T06:06:08+08:00 ] 172.26.33.75 64.246.161.30 GET /
+[ info ] www.mo1120.com/ [运行时间：0.043549s][吞吐率：22.96req/s] [内存消耗：3,025.62kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'wsip' => '47.92.25.181',
+  'wshost' => 'www.mo1120.com',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'host' => 'www.mo1120.com',
+  'from' => 'feedback@surveybot.com',
+  'accept-language' => 'en-us,fr-be;q=0.5',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'close, TE',
+  'te' => 'deflate,gzip;q=0.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000338s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '64.246.161.30'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('64.246.161.30' , 1524693968) [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000149s ]
+---------------------------------------------------------------
+[ 2018-04-26T06:24:56+08:00 ] 172.26.33.75 123.125.67.154 GET /
+[ info ] www.mo1120.com/ [运行时间：0.044819s][吞吐率：22.31req/s] [内存消耗：3,022.01kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000328s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '123.125.67.154'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('123.125.67.154' , 1524695096) [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2018-04-26T07:26:17+08:00 ] 172.26.33.75 220.181.125.138 GET /
+[ info ] www.mo1120.com/ [运行时间：0.041533s][吞吐率：24.08req/s] [内存消耗：3,022.88kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Thu, 15 Mar 2018 11:03:11 GMT',
+  'connection' => 'close',
+  'user-agent' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '220.181.125.138'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('220.181.125.138' , 1524698777) [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000149s ]
+---------------------------------------------------------------
+[ 2018-04-26T07:26:37+08:00 ] 172.26.33.75 220.181.125.138 GET /index/solutions/info/id/8.html
+[ info ] www.mo1120.com/index/solutions/info/id/8.html [运行时间：0.040016s][吞吐率：24.99req/s] [内存消耗：2,991.62kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'solutions',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Mon, 26 Mar 2018 11:15:24 GMT',
+  'connection' => 'close',
+  'user-agent' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Solutions->info[ /www/wwwroot/ent.mo1120.com/application/index/controller/Solutions.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/solutions/info.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '220.181.125.138'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `id` = 8 LIMIT 1 [ RunTime:0.000186s ]
+---------------------------------------------------------------
+[ 2018-04-26T07:31:48+08:00 ] 172.26.33.75 202.108.211.56 GET /
+[ info ] www.mo1120.com/ [运行时间：0.042888s][吞吐率：23.32req/s] [内存消耗：3,025.51kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'www.mo1120.com',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1042.0 Safari/535.21',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000319s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '202.108.211.56'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('202.108.211.56' , 1524699108) [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000148s ]
+---------------------------------------------------------------
+[ 2018-04-26T08:47:45+08:00 ] 172.26.33.75 123.125.71.20 GET /
+[ info ] www.mo1120.com/ [运行时间：0.043123s][吞吐率：23.19req/s] [内存消耗：3,022.81kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '123.125.71.20'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('123.125.71.20' , 1524703665) [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000159s ]
+---------------------------------------------------------------
+[ 2018-04-26T09:15:56+08:00 ] 172.26.33.75 106.14.217.247 GET /
+[ info ] www.mo1120.com/ [运行时间：0.044601s][吞吐率：22.42req/s] [内存消耗：3,021.99kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.mo1120.com',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '106.14.217.247'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('106.14.217.247' , 1524705356) [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000155s ]
+---------------------------------------------------------------
+[ 2018-04-26T12:23:29+08:00 ] 172.26.33.75 183.136.190.62 GET /
+[ info ] www.mo1120.com/ [运行时间：0.042952s][吞吐率：23.28req/s] [内存消耗：3,023.59kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '183.136.190.62'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('183.136.190.62' , 1524716609) [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000152s ]
+---------------------------------------------------------------
+[ 2018-04-26T16:43:37+08:00 ] 172.26.33.75 123.125.71.21 GET /
+[ info ] www.mo1120.com/ [运行时间：0.043844s][吞吐率：22.81req/s] [内存消耗：3,022.81kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000348s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '123.125.71.21'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('123.125.71.21' , 1524732216) [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2018-04-26T18:58:56+08:00 ] 172.26.33.75 220.181.125.138 GET /
+[ info ] www.mo1120.com/ [运行时间：0.044418s][吞吐率：22.51req/s] [内存消耗：3,022.73kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Thu, 15 Mar 2018 11:03:11 GMT',
+  'connection' => 'close',
+  'user-agent' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '220.181.125.138'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[ 2018-04-26T18:59:19+08:00 ] 172.26.33.75 220.181.125.138 GET /index/solutions/index.html
+[ info ] www.mo1120.com/index/solutions/index.html [运行时间：0.039772s][吞吐率：25.14req/s] [内存消耗：3,025.72kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'solutions',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Fri, 23 Mar 2018 11:19:42 GMT',
+  'connection' => 'close',
+  'user-agent' => 'Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'host' => 'www.mo1120.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Solutions->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Solutions.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/solutions/solutions.html [ array (
+  0 => 'config',
+  1 => 'solu1',
+  2 => 'solu2',
+  3 => 'solu3',
+  4 => 'solu4',
+  5 => 'cate',
+  6 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '220.181.125.138'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id asc [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 5 ORDER BY id asc [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 6 ORDER BY id asc [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 7 ORDER BY id asc [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 8 ORDER BY id asc [ RunTime:0.000139s ]
+---------------------------------------------------------------
+[ 2018-04-26T19:36:09+08:00 ] 172.26.33.75 157.55.39.64 GET /
+[ info ] www.mo1120.com/ [运行时间：0.044056s][吞吐率：22.70req/s] [内存消耗：3,024.32kb] [文件加载：75]
+[ info ] [ LANG ] /www/wwwroot/ent.mo1120.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'www.mo1120.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/ent.mo1120.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/ent.mo1120.com/public/../application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_counts` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `think_counts` WHERE  `ip` = '157.55.39.64'  AND `add_time` BETWEEN 1524672000 AND 1524758400 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] INSERT INTO `think_counts` (`ip` , `add_time`) VALUES ('157.55.39.64' , 1524742569) [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000181s ]

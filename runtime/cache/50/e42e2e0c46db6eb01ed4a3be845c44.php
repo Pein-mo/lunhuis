@@ -1,0 +1,3 @@
+<?php
+//000000000000a:16:{s:14:"web_site_title";s:18:"万点星辰科技";s:20:"web_site_description";s:24:"轮回后台管理系统";s:16:"web_site_keyword";s:38:"玉林市 北流市 万点星辰科技";s:12:"web_site_icp";s:22:"陇ICP备15002349号-1";s:13:"web_site_cnzz";s:0:"";s:13:"web_site_copy";s:63:"Copyright © 2017 轮回后台管理系统 All rights reserved.";s:14:"web_site_close";s:1:"1";s:9:"list_rows";s:2:"10";s:14:"admin_allow_ip";N;s:14:"alidayu_appkey";s:1:"1";s:17:"alidayu_appSecret";s:0:"";s:12:"web_about_us";s:86:"<p><span style="color: rgb(192, 0, 0);"><strong>万点星辰科技</strong></span></p>";s:11:"web_address";s:32:"广西北流市二环北路38号";s:12:"web_landline";s:13:"0775-62950301";s:9:"web_email";s:16:"251439200@qq.com";s:10:"web_mobile";s:11:"18169729248";}
+?>

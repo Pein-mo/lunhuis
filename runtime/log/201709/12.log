@@ -1,0 +1,3194 @@
+---------------------------------------------------------------
+[ 2017-09-12T00:00:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.096040s][吞吐率：10.41req/s] [内存消耗：2,647.04kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '256073',
+  'content-type' => 'multipart/form-data; boundary=---------------------------128053120426099',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => '4.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Mon Sep 11 2017 23:59:57 GMT+0800',
+  'size' => '255340',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004501s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.027630s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000888s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:27+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/add_office_img
+[ info ] www.entss.com/admin/about/add_office_img [运行时间：0.095457s][吞吐率：10.48req/s] [内存消耗：2,608.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '68',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img' => '',
+  'photo' => '20170912\\c3698ead00fa54a81902b82f48413589.png',
+  'file' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002702s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.025451s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020853s ]
+[ sql ] [ SQL ] INSERT INTO `think_office` (`photo` , `status` , `create_time` , `update_time`) VALUES ('20170912\\c3698ead00fa54a81902b82f48413589.png' , 1 , 1505145627 , 1505145627) [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html
+[ info ] www.entss.com/admin/about/office_img.html [运行时间：0.105627s][吞吐率：9.47req/s] [内存消耗：2,595.77kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003788s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.027349s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.022405s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.110432s][吞吐率：9.06req/s] [内存消耗：2,601.71kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002565s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.025556s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.022307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/add_office_img.html
+[ info ] www.entss.com/admin/about/add_office_img.html [运行时间：0.087034s][吞吐率：11.49req/s] [内存消耗：2,593.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\add_office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002505s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.029035s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.091455s][吞吐率：10.93req/s] [内存消耗：2,646.99kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '63030',
+  'content-type' => 'multipart/form-data; boundary=---------------------------284682504615022',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => '5.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Tue Sep 12 2017 00:00:03 GMT+0800',
+  'size' => '62298',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003501s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.027649s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.002204s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:35+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/add_office_img
+[ info ] www.entss.com/admin/about/add_office_img [运行时间：0.102262s][吞吐率：9.78req/s] [内存消耗：2,608.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '68',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img' => '',
+  'photo' => '20170912\\0595b205bd25385a0d692be0b6aa6390.png',
+  'file' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002748s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.023822s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.021596s ]
+[ sql ] [ SQL ] INSERT INTO `think_office` (`photo` , `status` , `create_time` , `update_time`) VALUES ('20170912\\0595b205bd25385a0d692be0b6aa6390.png' , 1 , 1505145635 , 1505145635) [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html
+[ info ] www.entss.com/admin/about/office_img.html [运行时间：0.100711s][吞吐率：9.93req/s] [内存消耗：2,595.91kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003756s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.026191s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020842s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.142056s][吞吐率：7.04req/s] [内存消耗：2,601.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006207s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.036363s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.026722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/add_office_img.html
+[ info ] www.entss.com/admin/about/add_office_img.html [运行时间：0.083031s][吞吐率：12.04req/s] [内存消耗：2,593.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\add_office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002383s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.027129s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000795s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.090157s][吞吐率：11.09req/s] [内存消耗：2,646.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '72338',
+  'content-type' => 'multipart/form-data; boundary=---------------------------1897323934286',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => '6.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Tue Sep 12 2017 00:00:08 GMT+0800',
+  'size' => '71620',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002327s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.028824s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001262s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/add_office_img
+[ info ] www.entss.com/admin/about/add_office_img [运行时间：0.095880s][吞吐率：10.43req/s] [内存消耗：2,608.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '68',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img' => '',
+  'photo' => '20170912\\2f7f6c8eaa9b7b3e3cce7d23f25e09ea.png',
+  'file' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002475s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.025925s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.019931s ]
+[ sql ] [ SQL ] INSERT INTO `think_office` (`photo` , `status` , `create_time` , `update_time`) VALUES ('20170912\\2f7f6c8eaa9b7b3e3cce7d23f25e09ea.png' , 1 , 1505145644 , 1505145644) [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html
+[ info ] www.entss.com/admin/about/office_img.html [运行时间：0.110211s][吞吐率：9.07req/s] [内存消耗：2,596.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002443s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.030331s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.022304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.156479s][吞吐率：6.39req/s] [内存消耗：2,602.12kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003463s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.043526s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.029184s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001355s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/add_office_img.html
+[ info ] www.entss.com/admin/about/add_office_img.html [运行时间：0.078537s][吞吐率：12.73req/s] [内存消耗：2,593.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\add_office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002696s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.026065s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001303s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:52+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.092036s][吞吐率：10.87req/s] [内存消耗：2,646.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '63990',
+  'content-type' => 'multipart/form-data; boundary=---------------------------16949210081066',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => '7.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Tue Sep 12 2017 00:00:13 GMT+0800',
+  'size' => '63265',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002472s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.024717s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/add_office_img
+[ info ] www.entss.com/admin/about/add_office_img [运行时间：0.096245s][吞吐率：10.39req/s] [内存消耗：2,608.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '68',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img' => '',
+  'photo' => '20170912\\625134995703e95792a6b533c6089c92.png',
+  'file' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002529s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.026494s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020143s ]
+[ sql ] [ SQL ] INSERT INTO `think_office` (`photo` , `status` , `create_time` , `update_time`) VALUES ('20170912\\625134995703e95792a6b533c6089c92.png' , 1 , 1505145653 , 1505145653) [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html
+[ info ] www.entss.com/admin/about/office_img.html [运行时间：0.102707s][吞吐率：9.74req/s] [内存消耗：2,596.22kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002366s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.026861s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.002103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020606s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.118840s][吞吐率：8.41req/s] [内存消耗：2,602.35kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002765s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.028926s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.022279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:00:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/add_office_img.html
+[ info ] www.entss.com/admin/about/add_office_img.html [运行时间：0.089055s][吞吐率：11.23req/s] [内存消耗：2,593.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\add_office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002427s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.030813s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000990s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:01:00+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.106283s][吞吐率：9.41req/s] [内存消耗：2,646.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '71215',
+  'content-type' => 'multipart/form-data; boundary=---------------------------7556113512532',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => '8.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Tue Sep 12 2017 00:00:18 GMT+0800',
+  'size' => '70497',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002633s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.029602s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001279s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:01:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/add_office_img
+[ info ] www.entss.com/admin/about/add_office_img [运行时间：0.099701s][吞吐率：10.03req/s] [内存消耗：2,608.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '68',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img' => '',
+  'photo' => '20170912\\b9c4c5429bdee4a24b109d87b30676f4.png',
+  'file' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002433s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.025199s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.021222s ]
+[ sql ] [ SQL ] INSERT INTO `think_office` (`photo` , `status` , `create_time` , `update_time`) VALUES ('20170912\\b9c4c5429bdee4a24b109d87b30676f4.png' , 1 , 1505145661 , 1505145661) [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:01:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html
+[ info ] www.entss.com/admin/about/office_img.html [运行时间：0.105396s][吞吐率：9.49req/s] [内存消耗：2,596.54kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003734s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.027014s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.021106s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:01:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.126837s][吞吐率：7.88req/s] [内存消耗：2,602.55kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002817s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.026114s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.024641s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:02:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.102090s][吞吐率：9.80req/s] [内存消耗：2,334.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002508s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025590s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.019594s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 )' at line 1[D:\phpStudy\WWW\entss\thinkphp\library\think\db\Connection.php:408]
+---------------------------------------------------------------
+[ 2017-09-12T00:02:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.114828s][吞吐率：8.71req/s] [内存消耗：2,357.89kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003552s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.030597s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.026508s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:03:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/customer-case.html
+[ info ] www.entss.com/index/about/customer-case.html [运行时间：0.088811s][吞吐率：11.26req/s] [内存消耗：2,324.29kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'customer-case',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/about/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/customer-case_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003969s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.033848s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:03:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.106852s][吞吐率：9.36req/s] [内存消耗：2,362.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005052s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.021472s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.022544s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:06:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.111319s][吞吐率：8.98req/s] [内存消耗：2,512.55kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002536s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025322s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020803s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:07:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.115783s][吞吐率：8.64req/s] [内存消耗：2,512.83kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002947s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.024908s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020855s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.118491s][吞吐率：8.44req/s] [内存消耗：2,512.86kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002680s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.027514s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.021764s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.105763s][吞吐率：9.46req/s] [内存消耗：2,362.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003040s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025092s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.019916s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.105310s][吞吐率：9.50req/s] [内存消耗：2,362.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003389s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.022694s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.026087s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.104184s][吞吐率：9.60req/s] [内存消耗：2,362.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002492s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.029601s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020549s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/customer-case.html
+[ info ] www.entss.com/index/about/customer-case.html [运行时间：0.085430s][吞吐率：11.71req/s] [内存消耗：2,324.29kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'customer-case',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/about/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/customer-case_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002454s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.035756s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.107255s][吞吐率：9.32req/s] [内存消耗：2,512.66kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002989s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.017735s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.019837s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/del_img.html?id=6
+[ info ] www.entss.com/admin/about/del_img.html?id=6 [运行时间：0.120339s][吞吐率：8.31req/s] [内存消耗：2,598.35kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'del_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/del_img_html' => '',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->del_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004543s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.023032s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.028504s ]
+[ sql ] [ SQL ] SELECT `photo` FROM `think_office` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] DELETE FROM `think_office`    WHERE  `id` = 6 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.107956s][吞吐率：9.26req/s] [内存消耗：2,602.35kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002443s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.023578s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.027717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:09:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.121187s][吞吐率：8.25req/s] [内存消耗：2,361.33kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004503s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.034191s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.024486s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:11:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.109140s][吞吐率：9.16req/s] [内存消耗：2,511.64kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003143s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.024606s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.020492s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:15:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/add_office_img.html
+[ info ] www.entss.com/admin/about/add_office_img.html [运行时间：0.092444s][吞吐率：10.82req/s] [内存消耗：2,593.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\add_office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002752s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.028737s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000960s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:15:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.088109s][吞吐率：11.35req/s] [内存消耗：2,646.96kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '351201',
+  'content-type' => 'multipart/form-data; boundary=---------------------------9124225929778',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => 'TIM截图20170912001512.png',
+  'type' => 'image/png',
+  'lastModifiedDate' => 'Tue Sep 12 2017 00:15:15 GMT+0800',
+  'size' => '350438',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003594s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.028854s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000931s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:15:34+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/add_office_img
+[ info ] www.entss.com/admin/about/add_office_img [运行时间：0.096378s][吞吐率：10.38req/s] [内存消耗：2,608.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'add_office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'content-length' => '68',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/add_office_img' => '',
+  'photo' => '20170912\\d8b4724b381645aa9c99758185965a9d.png',
+  'file' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->add_office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002387s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.025130s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.022193s ]
+[ sql ] [ SQL ] INSERT INTO `think_office` (`photo` , `status` , `create_time` , `update_time`) VALUES ('20170912\\d8b4724b381645aa9c99758185965a9d.png' , 1 , 1505146534 , 1505146534) [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:15:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html
+[ info ] www.entss.com/admin/about/office_img.html [运行时间：0.105230s][吞吐率：9.50req/s] [内存消耗：2,596.54kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/about/add_office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\about\office_img.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003730s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.028501s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.021033s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:15:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/about/office_img.html?page=1
+[ info ] www.entss.com/admin/about/office_img.html?page=1 [运行时间：0.146212s][吞吐率：6.84req/s] [内存消耗：2,602.55kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_img_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_img[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003611s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.032497s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.032231s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_office` LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:15:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/about/office_state.html
+[ info ] www.entss.com/admin/about/office_state.html [运行时间：0.099126s][吞吐率：10.09req/s] [内存消耗：2,560.96kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'about',
+    2 => 'office_state',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/about/office_img.html',
+  'content-length' => '5',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/about/office_state_html' => '',
+  'id' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\About->office_state[ D:\phpStudy\WWW\entss\application\admin\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002454s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.025229s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.024171s ]
+[ sql ] [ SQL ] SELECT `status` FROM `think_office` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] UPDATE `think_office`  SET `status`=0  WHERE  `id` = 12 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:16:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.120285s][吞吐率：8.31req/s] [内存消耗：2,333.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002668s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.030628s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.023607s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000486s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp5.think_img' doesn't exist[D:\phpStudy\WWW\entss\thinkphp\library\think\db\connector\Mysql.php:65]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.114772s][吞吐率：8.71req/s] [内存消耗：2,513.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'img',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003270s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.027793s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.027941s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/recruit/index.html
+[ info ] www.entss.com/index/recruit/index.html [运行时间：0.099011s][吞吐率：10.10req/s] [内存消耗：2,373.55kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/about/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/recruit/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Recruit->index[ D:\phpStudy\WWW\entss\application\index\controller\Recruit.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\recruit\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002433s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.027732s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_recruit` [ RunTime:0.019444s ]
+[ sql ] [ SQL ] SELECT * FROM `think_recruit` WHERE  `status` = 1 ORDER BY id desc [ RunTime:0.000540s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/index.html
+[ info ] www.entss.com/index/news/index.html [运行时间：0.115254s][吞吐率：8.68req/s] [内存消耗：2,490.25kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ D:\phpStudy\WWW\entss\application\index\controller\News.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\news\index.html [ array (
+  0 => 'config',
+  1 => 'hot',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003120s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025247s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.020603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 LIMIT 1 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT `think_news`.*,`name` FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.018727s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY views desc LIMIT 5 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/customer/index.html
+[ info ] www.entss.com/index/customer/index.html [运行时间：0.128308s][吞吐率：7.79req/s] [内存消耗：2,387.78kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'customer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/news/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/customer/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Customer->index[ D:\phpStudy\WWW\entss\application\index\controller\Customer.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\customer\index.html [ array (
+  0 => 'config',
+  1 => 'cust_img',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002669s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.029246s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.021647s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.026815s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/server/index.html
+[ info ] www.entss.com/index/server/index.html [运行时间：0.091151s][吞吐率：10.97req/s] [内存消耗：2,373.95kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'server',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/customer/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/server/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Server->index[ D:\phpStudy\WWW\entss\application\index\controller\Server.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\server\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002392s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.024638s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_server` [ RunTime:0.023727s ]
+[ sql ] [ SQL ] SELECT * FROM `think_server` WHERE  `is_on` = 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/customer/index.html
+[ info ] www.entss.com/index/customer/index.html [运行时间：0.112207s][吞吐率：8.91req/s] [内存消耗：2,387.78kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'customer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/server/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/customer/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Customer->index[ D:\phpStudy\WWW\entss\application\index\controller\Customer.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\customer\index.html [ array (
+  0 => 'config',
+  1 => 'cust_img',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003359s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.024035s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.020291s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.020113s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/customer/info/id/5.html
+[ info ] www.entss.com/index/customer/info/id/5.html [运行时间：0.097420s][吞吐率：10.26req/s] [内存消耗：2,370.14kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'customer',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/customer/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/customer/info/id/5_html' => '',
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Customer->info[ D:\phpStudy\WWW\entss\application\index\controller\Customer.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\customer\info.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003269s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.023504s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.024319s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1  AND `id` = 5 LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/solutions/index.html
+[ info ] www.entss.com/index/solutions/index.html [运行时间：0.118203s][吞吐率：8.46req/s] [内存消耗：2,389.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'solutions',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/customer/info/id/5.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/solutions/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Solutions->index[ D:\phpStudy\WWW\entss\application\index\controller\Solutions.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\solutions\solutions.html [ array (
+  0 => 'config',
+  1 => 'solu1',
+  2 => 'solu2',
+  3 => 'solu3',
+  4 => 'solu4',
+  5 => 'cate',
+  6 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002752s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025449s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.021221s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id asc [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions` [ RunTime:0.024246s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 5 ORDER BY id asc [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 6 ORDER BY id asc [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 7 ORDER BY id asc [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 8 ORDER BY id asc [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:17:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] www.entss.com/index/index/index.html [运行时间：0.183597s][吞吐率：5.45req/s] [内存消耗：2,424.99kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/solutions/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\entss\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\index\index.html [ array (
+  0 => 'config',
+  1 => 'a',
+  2 => 'solu_cate ',
+  3 => 'cust_img',
+  4 => 'news',
+  5 => 'img',
+  6 => 'customer',
+  7 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003230s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025681s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.020213s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.020803s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.020902s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.020795s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.020651s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:18:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/solutions/index.html
+[ info ] www.entss.com/index/solutions/index.html [运行时间：0.121489s][吞吐率：8.23req/s] [内存消耗：2,389.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'solutions',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/index/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/solutions/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Solutions->index[ D:\phpStudy\WWW\entss\application\index\controller\Solutions.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\solutions\solutions.html [ array (
+  0 => 'config',
+  1 => 'solu1',
+  2 => 'solu2',
+  3 => 'solu3',
+  4 => 'solu4',
+  5 => 'cate',
+  6 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002566s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025864s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.021011s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id asc [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions` [ RunTime:0.022937s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 5 ORDER BY id asc [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 6 ORDER BY id asc [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 7 ORDER BY id asc [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions` WHERE  `is_on` = 1  AND `cate_id` = 8 ORDER BY id asc [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:19:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/product/index.html
+[ info ] www.entss.com/index/product/index.html [运行时间：0.106934s][吞吐率：9.35req/s] [内存消耗：2,372.54kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/solutions/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/product/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->index[ D:\phpStudy\WWW\entss\application\index\controller\Product.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\product\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002476s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025422s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_product` [ RunTime:0.024646s ]
+[ sql ] [ SQL ] SELECT * FROM `think_product` INNER JOIN `think_product_cate` `think_product_cate` ON `think_product`.`cate_id`=`think_product_cate`.`id` WHERE  `think_product`.`is_on` = '1' [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:19:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/customer/index.html
+[ info ] www.entss.com/index/customer/index.html [运行时间：0.119564s][吞吐率：8.36req/s] [内存消耗：2,387.78kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'customer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/product/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/customer/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Customer->index[ D:\phpStudy\WWW\entss\application\index\controller\Customer.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\customer\index.html [ array (
+  0 => 'config',
+  1 => 'cust_img',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002555s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025201s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.022427s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.022700s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:20:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/server/index.html
+[ info ] www.entss.com/index/server/index.html [运行时间：0.094160s][吞吐率：10.62req/s] [内存消耗：2,373.95kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'server',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/customer/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/server/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Server->index[ D:\phpStudy\WWW\entss\application\index\controller\Server.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\server\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002450s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.027334s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_server` [ RunTime:0.020025s ]
+[ sql ] [ SQL ] SELECT * FROM `think_server` WHERE  `is_on` = 1 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:21:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/index.html
+[ info ] www.entss.com/index/news/index.html [运行时间：0.123031s][吞吐率：8.13req/s] [内存消耗：2,490.23kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/server/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ D:\phpStudy\WWW\entss\application\index\controller\News.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\news\index.html [ array (
+  0 => 'config',
+  1 => 'hot',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003453s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025028s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.020534s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT `think_news`.*,`name` FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.025108s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY views desc LIMIT 5 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:21:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/about/index.html
+[ info ] www.entss.com/index/about/index.html [运行时间：0.106283s][吞吐率：9.41req/s] [内存消耗：2,362.81kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'about',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/news/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/about/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpStudy\WWW\entss\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\about\index.html [ array (
+  0 => 'config',
+  1 => 'img',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002878s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.024038s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_office` [ RunTime:0.029024s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `think_office` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:22:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/recruit/index.html
+[ info ] www.entss.com/index/recruit/index.html [运行时间：0.098926s][吞吐率：10.11req/s] [内存消耗：2,373.55kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/about/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/recruit/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Recruit->index[ D:\phpStudy\WWW\entss\application\index\controller\Recruit.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\recruit\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003622s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.025463s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_recruit` [ RunTime:0.021860s ]
+[ sql ] [ SQL ] SELECT * FROM `think_recruit` WHERE  `status` = 1 ORDER BY id desc [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:22:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/recruit/index.html
+[ info ] www.entss.com/index/recruit/index.html [运行时间：0.101228s][吞吐率：9.88req/s] [内存消耗：2,373.78kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'recruit',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/about/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/recruit/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Recruit->index[ D:\phpStudy\WWW\entss\application\index\controller\Recruit.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\recruit\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003093s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.026411s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_recruit` [ RunTime:0.021606s ]
+[ sql ] [ SQL ] SELECT * FROM `think_recruit` WHERE  `status` = 1 ORDER BY id desc [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.entss.com/admin/index/index.html [运行时间：0.140999s][吞吐率：7.09req/s] [内存消耗：2,602.23kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/login/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003345s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.024645s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000920s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.245599s][吞吐率：4.07req/s] [内存消耗：2,552.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003437s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.033398s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.068436s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1505145600 LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.042614s][吞吐率：23.47req/s] [内存消耗：1,022.12kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-12T00:28:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/index.html
+[ info ] www.entss.com/index/news/index.html [运行时间：0.123385s][吞吐率：8.10req/s] [内存消耗：2,491.00kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/recruit/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ D:\phpStudy\WWW\entss\application\index\controller\News.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\news\index.html [ array (
+  0 => 'config',
+  1 => 'hot',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003983s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.024997s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.017754s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT `think_news`.*,`name` FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.016133s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY views desc LIMIT 5 [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:28:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/info/id/8.html
+[ info ] www.entss.com/index/news/info/id/8.html [运行时间：0.086889s][吞吐率：11.51req/s] [内存消耗：2,450.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/news/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/info/id/8_html' => '',
+  'id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->info[ D:\phpStudy\WWW\entss\application\index\controller\News.php ]
+[ info ] [ CACHE ] INIT file
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\news\info.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002656s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.020135s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.015783s ]
+[ sql ] [ SQL ] UPDATE `think_news`  SET `views`=views+1  WHERE  `id` = 8 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1  AND `id` = 8 LIMIT 1 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:28:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/info/id/8.html
+[ info ] www.entss.com/index/news/info/id/8.html [运行时间：0.099143s][吞吐率：10.09req/s] [内存消耗：2,451.03kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/news/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/info/id/8_html' => '',
+  'id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->info[ D:\phpStudy\WWW\entss\application\index\controller\News.php ]
+[ info ] [ CACHE ] INIT file
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\news\info.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002632s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.023959s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.021080s ]
+[ sql ] [ SQL ] UPDATE `think_news`  SET `views`=views+1  WHERE  `id` = 8 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1  AND `id` = 8 LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:28:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/server/index.html
+[ info ] www.entss.com/index/server/index.html [运行时间：0.085150s][吞吐率：11.74req/s] [内存消耗：2,373.95kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'server',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/news/info/id/8.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/server/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Server->index[ D:\phpStudy\WWW\entss\application\index\controller\Server.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\server\index.html [ array (
+  0 => 'config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003551s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.021467s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_server` [ RunTime:0.016644s ]
+[ sql ] [ SQL ] SELECT * FROM `think_server` WHERE  `is_on` = 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2017-09-12T00:29:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/index.html
+[ info ] www.entss.com/index/news/index.html [运行时间：0.108172s][吞吐率：9.24req/s] [内存消耗：2,491.12kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/index/server/index.html',
+  'cookie' => 'PHPSESSID=h2vqgheiuflp68af9qtfh6ies3',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/news/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ D:\phpStudy\WWW\entss\application\index\controller\News.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\news\index.html [ array (
+  0 => 'config',
+  1 => 'hot',
+  2 => 'data',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003189s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.022748s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.015850s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `think_news`.*,`name` FROM `think_news` INNER JOIN `think_news_cate` `think_news_cate` ON `think_news`.`cate_id`=`think_news_cate`.`id` WHERE  `think_news`.`status` = 1 ORDER BY id desc LIMIT 0,6 [ RunTime:0.017084s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY views desc LIMIT 5 [ RunTime:0.000547s ]

@@ -1,0 +1,111 @@
+---------------------------------------------------------------
+[ 2017-11-12T08:04:38+08:00 ] 172.26.33.75 106.15.14.129 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000124s ]
+---------------------------------------------------------------
+[ 2017-11-12T17:19:55+08:00 ] 172.26.33.75 171.106.38.250 GET /admin/public/login.html
+[ error ] [1]Uncaught think\exception\TemplateNotFoundException: template not exists:/www/wwwroot/ent.mo1120.com/public/../application/404.html in /www/wwwroot/ent.mo1120.com/thinkphp/library/think/view/driver/Think.php:80
+Stack trace:
+#0 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/View.php(159): think\view\driver\Think->fetch('/www/wwwroot/en...', Array, Array)
+#1 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/response/View.php(36): think\View->fetch('/www/wwwroot/en...', Array, Array)
+#2 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/Response.php(309): think\response\View->output('/www/wwwroot/en...')
+#3 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/Response.php(94): think\Response->getContent()
+#4 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/Error.php(47): think\Response->send()
+#5 [internal function]: think\Error::appException(Object(think\exception\HttpException))
+#6 {main}
+  thrown
+---------------------------------------------------------------
+[ 2017-11-12T17:20:00+08:00 ] 172.26.33.75 171.106.38.250 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000158s ]
+---------------------------------------------------------------
+[ 2017-11-12T17:20:26+08:00 ] 172.26.33.75 171.106.38.250 POST /admin/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `name` FROM `think_auth_rule` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] UPDATE `think_admin`  SET `loginnum`=302,`last_login_ip`='171.106.38.250',`last_login_time`=1510478426,`token`='e8e36733a56b6cd1ca3209d009d01a98'  WHERE  `id` = 1 [ RunTime:0.044286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_log` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] INSERT INTO `think_log` (`admin_id` , `admin_name` , `description` , `status` , `ip` , `add_time`) VALUES (1 , 'admin' , '用户【admin】登录成功' , 1 , '171.106.38.250' , 1510478426) [ RunTime:0.018576s ]
+---------------------------------------------------------------
+[ 2017-11-12T17:20:28+08:00 ] 172.26.33.75 171.106.38.250 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000248s ]
+---------------------------------------------------------------
+[ 2017-11-12T17:20:29+08:00 ] 172.26.33.75 171.106.38.250 GET /admin/index/indexpage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1510416000 LIMIT 1 [ RunTime:0.016009s ]
+---------------------------------------------------------------
+[ 2017-11-12T17:20:29+08:00 ] 172.26.33.75 171.106.38.250 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ error ] [1]Uncaught think\exception\TemplateNotFoundException: template not exists:/www/wwwroot/ent.mo1120.com/public/../application/404.html in /www/wwwroot/ent.mo1120.com/thinkphp/library/think/view/driver/Think.php:80
+Stack trace:
+#0 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/View.php(159): think\view\driver\Think->fetch('/www/wwwroot/en...', Array, Array)
+#1 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/response/View.php(36): think\View->fetch('/www/wwwroot/en...', Array, Array)
+#2 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/Response.php(309): think\response\View->output('/www/wwwroot/en...')
+#3 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/Response.php(94): think\Response->getContent()
+#4 /www/wwwroot/ent.mo1120.com/thinkphp/library/think/Error.php(47): think\Response->send()
+#5 [internal function]: think\Error::appException(Object(think\exception\HttpException))
+#6 {main}
+  thrown
+---------------------------------------------------------------
+[ 2017-11-12T17:20:34+08:00 ] 172.26.33.75 171.106.38.250 GET /admin/solutions/sol_list.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `think_solutions`.*,`name` FROM `think_solutions` INNER JOIN `think_solutions_cate` `think_solutions_cate` ON `think_solutions`.`cate_id`=`think_solutions_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2017-11-12T17:20:34+08:00 ] 172.26.33.75 171.106.38.250 GET /admin/solutions/sol_list.html?page=1&key=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `think_solutions`.*,`name` FROM `think_solutions` INNER JOIN `think_solutions_cate` `think_solutions_cate` ON `think_solutions`.`cate_id`=`think_solutions_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000157s ]
+---------------------------------------------------------------
+[ 2017-11-12T21:13:05+08:00 ] 172.26.33.75 183.136.190.62 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_config` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `think_config` [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_customer` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `think_customer` WHERE  `is_on` = 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_index_img` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `think_index_img` WHERE  `is_on` = 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `status` = 1 ORDER BY id desc LIMIT 2 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_cust_img` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `think_cust_img` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_solutions_cate` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `think_solutions_cate` WHERE  `is_on` = 1 ORDER BY id desc [ RunTime:0.000164s ]

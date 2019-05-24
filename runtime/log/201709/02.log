@@ -1,0 +1,2553 @@
+---------------------------------------------------------------
+[ 2017-09-02T11:58:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.entss.com/ [运行时间：0.033008s][吞吐率：30.30req/s] [内存消耗：1,374.09kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T11:58:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.entss.com/admin/login/index.html [运行时间：0.030158s][吞吐率：33.16req/s] [内存消耗：1,363.64kb] [文件加载：34]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\entss\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T11:58:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/checkverify.html
+[ info ] www.entss.com/admin/login/checkverify.html [运行时间：0.035242s][吞吐率：28.38req/s] [内存消耗：1,360.15kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/login/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/checkverify_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checkVerify[ D:\phpStudy\WWW\entss\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T11:58:44+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin/login/getverify/t/1504324723.html
+[ info ] www.entss.com/Admin/login/getverify/t/1504324723.html [运行时间：0.182065s][吞吐率：5.49req/s] [内存消耗：1,354.54kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => 'getverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/login/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/Admin/login/getverify/t/1504324723_html' => '',
+  't' => '1504324723',
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpStudy\WWW\entss\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T11:58:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] www.entss.com/index.php [运行时间：0.029845s][吞吐率：33.51req/s] [内存消耗：1,371.16kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T11:58:52+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/dologin.html
+[ info ] www.entss.com/admin/login/dologin.html [运行时间：0.086273s][吞吐率：11.59req/s] [内存消耗：2,739.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/login/index.html',
+  'content-length' => '40',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/dologin_html' => '',
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => '9579',
+)
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\phpStudy\WWW\entss\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002736s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin` [ RunTime:0.008837s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.007964s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.007079s ]
+[ sql ] [ SQL ] SELECT `name` FROM `think_auth_rule` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] UPDATE `think_admin`  SET `loginnum`=280,`last_login_ip`='127.0.0.1',`last_login_time`=1504324732,`token`='e96ed478dab8595a7dbda4cbcbee168f'  WHERE  `id` = 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_log` [ RunTime:0.008126s ]
+[ sql ] [ SQL ] INSERT INTO `think_log` (`admin_id` , `admin_name` , `description` , `status` , `ip` , `add_time`) VALUES (1 , 'admin' , '用户【admin】登录成功' , 1 , '127.0.0.1' , 1504324732) [ RunTime:0.000867s ]
+---------------------------------------------------------------
+[ 2017-09-02T11:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.entss.com/admin/index/index.html [运行时间：0.056344s][吞吐率：17.75req/s] [内存消耗：2,603.60kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/login/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.006356s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001696s ]
+---------------------------------------------------------------
+[ 2017-09-02T11:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.071879s][吞吐率：13.91req/s] [内存消耗：2,552.59kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002656s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.006608s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.008951s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1504281600 LIMIT 1 [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[ 2017-09-02T11:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.033816s][吞吐率：29.57req/s] [内存消耗：1,021.55kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T12:14:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.entss.com/admin/index/index.html [运行时间：0.056239s][吞吐率：17.78req/s] [内存消耗：2,603.91kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/login/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001996s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.005970s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001184s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:14:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.076245s][吞吐率：13.12req/s] [内存消耗：2,552.55kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002522s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009096s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.006272s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1504281600 LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:14:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.020240s][吞吐率：49.41req/s] [内存消耗：1,021.85kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T12:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.entss.com/ [运行时间：0.064384s][吞吐率：15.53req/s] [内存消耗：2,600.12kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001822s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009880s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001053s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.073066s][吞吐率：13.69req/s] [内存消耗：2,552.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002832s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008488s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.007330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1504281600 LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.022025s][吞吐率：45.40req/s] [内存消耗：1,021.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T12:15:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.entss.com/ [运行时间：0.059109s][吞吐率：16.92req/s] [内存消耗：2,600.12kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001924s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009245s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001052s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:15:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.065854s][吞吐率：15.19req/s] [内存消耗：2,552.50kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002889s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008749s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.006806s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1504281600 LIMIT 1 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:15:16+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.028494s][吞吐率：35.09req/s] [内存消耗：1,021.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T12:15:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/
+[ info ] www.entss.com/index/ [运行时间：0.027356s][吞吐率：36.56req/s] [内存消耗：1,326.97kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/index/' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\entss\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/index\view\index\index.html [ array (
+  0 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T12:15:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.entss.com/admin/index/index.html [运行时间：0.059346s][吞吐率：16.85req/s] [内存消耗：2,603.30kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002100s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.006832s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001148s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:15:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.072834s][吞吐率：13.73req/s] [内存消耗：2,552.59kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002691s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008902s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.007114s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1504281600 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:15:45+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.024771s][吞吐率：40.37req/s] [内存消耗：1,021.55kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T12:15:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/pro_list.html
+[ info ] www.entss.com/admin/product/pro_list.html [运行时间：0.056395s][吞吐率：17.73req/s] [内存消耗：2,579.14kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'pro_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/product/pro_list_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Product->pro_list[ D:\phpStudy\WWW\entss\application\admin\controller\Product.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001847s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009403s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001097s ]
+---------------------------------------------------------------
+[ 2017-09-02T12:18:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/pro_list.html
+[ info ] www.entss.com/admin/product/pro_list.html [运行时间：0.056549s][吞吐率：17.68req/s] [内存消耗：2,718.86kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product',
+    2 => 'pro_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/product/pro_list_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Product->pro_list[ D:\phpStudy\WWW\entss\application\admin\controller\Product.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\product\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002128s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009139s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000871s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] www.entss.com/admin/menu/index.html [运行时间：0.123529s][吞吐率：8.10req/s] [内存消耗：3,175.97kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/menu/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Menu->index[ D:\phpStudy\WWW\entss\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\menu\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'admin_rule',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002057s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.010333s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` ORDER BY id asc [ RunTime:0.000965s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/edit_rule/id/24.html
+[ info ] www.entss.com/admin/menu/edit_rule/id/24.html [运行时间：0.060813s][吞吐率：16.44req/s] [内存消耗：2,561.03kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'edit_rule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/menu/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/menu/edit_rule/id/24_html' => '',
+  'id' => '24',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Menu->edit_rule[ D:\phpStudy\WWW\entss\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\menu\edit_rule.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001908s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.010018s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/menu/edit_rule.html
+[ info ] www.entss.com/admin/menu/edit_rule.html [运行时间：0.064017s][吞吐率：15.62req/s] [内存消耗：2,617.76kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'edit_rule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/menu/edit_rule/id/24.html',
+  'content-length' => '89',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/menu/edit_rule_html' => '',
+  'id' => '24',
+  'title' => '文章管理',
+  'name' => '#',
+  'css' => 'fa fa-paste',
+  'status' => '1',
+  'sort' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Menu->edit_rule[ D:\phpStudy\WWW\entss\application\admin\controller\Menu.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001958s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009278s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] UPDATE `think_auth_rule`  SET `title`='文章管理',`name`='#',`css`='fa fa-paste',`status`=1,`sort`=4,`update_time`=1504343118  WHERE  `id` = 24 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_log` [ RunTime:0.006582s ]
+[ sql ] [ SQL ] INSERT INTO `think_log` (`admin_id` , `admin_name` , `description` , `status` , `ip` , `add_time`) VALUES (1 , 'admin' , '用户【admin】编辑菜单成功' , 1 , '127.0.0.1' , 1504343118) [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/menu/index.html
+[ info ] www.entss.com/admin/menu/index.html [运行时间：0.120889s][吞吐率：8.27req/s] [内存消耗：3,180.16kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/menu/edit_rule/id/24.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/menu/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Menu->index[ D:\phpStudy\WWW\entss\application\admin\controller\Menu.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\menu\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'admin_rule',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001925s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008547s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` ORDER BY id asc [ RunTime:0.000915s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.entss.com/admin/index/index.html [运行时间：0.062809s][吞吐率：15.92req/s] [内存消耗：2,608.24kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004869s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008744s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000887s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] www.entss.com/admin/index/indexpage.html [运行时间：0.085143s][吞吐率：11.74req/s] [内存消耗：2,556.74kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\phpStudy\WWW\entss\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'member',
+  5 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002744s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009941s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_member` [ RunTime:0.006192s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_member` WHERE  `create_time` >= 1504281600 LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:21+08:00 ] 127.0.0.1 127.0.0.1 GET /static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css
+[ info ] www.entss.com/static/admin/js/layer/skin/extend/layer.ext.js,skin/moon/style.css [运行时间：0.022645s][吞吐率：44.16req/s] [内存消耗：1,021.55kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/static/admin/js/layer/skin/extend/layer_ext_js,skin/moon/style_css' => '',
+  'layer' => 'skin',
+  'extend' => 'layer.ext.js,skin',
+  'moon' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T17:05:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] www.entss.com/admin/article/index.html [运行时间：0.078094s][吞吐率：12.81req/s] [内存消耗：2,895.67kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+  7 => 'val',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001862s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009887s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008401s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.003021s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?page=1&key=
+[ info ] www.entss.com/admin/article/index.html?page=1&key= [运行时间：0.072133s][吞吐率：13.86req/s] [内存消耗：2,791.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '1',
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001827s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009498s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008444s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001057s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg [运行时间：0.027336s][吞吐率：36.58req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689ce8fcd0e2_jpg' => '',
+  '04' => '5689ce8fcd0e2.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T17:05:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689cee8cf466.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689cee8cf466.jpg [运行时间：0.030875s][吞吐率：32.39req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689cee8cf466_jpg' => '',
+  '04' => '5689cee8cf466.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T17:05:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/add_article.html
+[ info ] www.entss.com/admin/article/add_article.html [运行时间：0.069585s][吞吐率：14.37req/s] [内存消耗：2,796.54kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/add_article_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->add_article[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\add_article.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002317s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008665s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article_cate` [ RunTime:0.005948s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article_cate` ORDER BY id asc [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:05:41+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.070369s][吞吐率：14.21req/s] [内存消耗：2,653.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/add_article.html',
+  'content-length' => '37928',
+  'content-type' => 'multipart/form-data; boundary=---------------------------63452056612301',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => 'QQ截图20170730164216.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Sun Jul 30 2017 16:42:18 GMT+0800',
+  'size' => '37159',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001927s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.011599s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001117s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:07:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/add_article
+[ info ] www.entss.com/admin/article/add_article [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,646.29kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/add_article.html',
+  'content-length' => '573',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/add_article' => '',
+  'title' => '测试',
+  'cate_id' => '2',
+  'keyword' => '测试',
+  'remark' => '大撒旦撒旦撒',
+  'photo' => '20170902\\f48e158adfda6421ac2f02d8efe3096b.jpg',
+  'file' => '',
+  'content' => '<p><img src="/ueditor/php/upload/image/20170902/1504343203882969.jpg" title="1504343203882969.jpg" alt="QQ截图20170730164216.jpg"/></p><p><span style="color: rgb(192, 80, 77);"><strong>哈哈哈</strong></span><br/></p>',
+  'is_tui' => '1',
+  'status' => '1',
+  'views' => '1',
+  'writer' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->add_article[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001980s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.005913s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006201s ]
+[ sql ] [ SQL ] INSERT INTO `think_article` (`title` , `cate_id` , `keyword` , `remark` , `photo` , `content` , `is_tui` , `status` , `views` , `writer` , `create_time` , `update_time`) VALUES ('测试' , 2 , '测试' , '大撒旦撒旦撒' , '20170902\\f48e158adfda6421ac2f02d8efe3096b.jpg' , '<p><img src=\"/ueditor/php/upload/image/20170902/1504343203882969.jpg\" title=\"1504343203882969.jpg\" alt=\"QQ截图20170730164216.jpg\"/></p><p><span style=\"color: rgb(192, 80, 77);\"><strong>哈哈哈</strong></span><br/></p>' , 1 , 1 , 1 , '' , 1504343232 , 1504343232) [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:07:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] www.entss.com/admin/article/index.html [运行时间：0.067967s][吞吐率：14.71req/s] [内存消耗：2,742.83kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/add_article.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+  7 => 'val',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001845s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.010161s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001251s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:07:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?page=1&key=
+[ info ] www.entss.com/admin/article/index.html?page=1&key= [运行时间：0.083996s][吞吐率：11.91req/s] [内存消耗：2,793.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '1',
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002180s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.010051s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.010808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001004s ]
+---------------------------------------------------------------
+[ 2017-09-02T17:07:14+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg [运行时间：0.031668s][吞吐率：31.58req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689ce8fcd0e2_jpg' => '',
+  '04' => '5689ce8fcd0e2.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T17:07:14+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689cee8cf466.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689cee8cf466.jpg [运行时间：0.033806s][吞吐率：29.58req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689cee8cf466_jpg' => '',
+  '04' => '5689cee8cf466.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T17:09:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index_cate.html
+[ info ] www.entss.com/admin/article/index_cate.html [运行时间：0.094669s][吞吐率：10.56req/s] [内存消耗：2,790.97kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_cate_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index_cate[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\index_cate.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022112s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008938s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article_cate` [ RunTime:0.006954s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article_cate` ORDER BY id asc [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:40:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] www.entss.com/admin/article/index.html [运行时间：0.112593s][吞吐率：8.88req/s] [内存消耗：2,742.86kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/index/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+  7 => 'val',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005699s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.012232s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008605s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001704s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:40:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?page=1&key=
+[ info ] www.entss.com/admin/article/index.html?page=1&key= [运行时间：0.078606s][吞吐率：12.72req/s] [内存消耗：2,793.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '1',
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002497s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009176s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007086s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:40:51+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg [运行时间：0.030582s][吞吐率：32.70req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689ce8fcd0e2_jpg' => '',
+  '04' => '5689ce8fcd0e2.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T22:40:51+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689cee8cf466.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689cee8cf466.jpg [运行时间：0.038993s][吞吐率：25.65req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689cee8cf466_jpg' => '',
+  '04' => '5689cee8cf466.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T22:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/edit_article/id/11.html
+[ info ] www.entss.com/admin/article/edit_article/id/11.html [运行时间：0.089271s][吞吐率：11.20req/s] [内存消耗：2,941.50kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/edit_article/id/11_html' => '',
+  'id' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->edit_article[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\edit_article.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'cate',
+  5 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003455s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008643s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article_cate` [ RunTime:0.006505s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article_cate` ORDER BY id asc [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008491s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000614s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689ce8fcd0e2.jpg [运行时间：0.020430s][吞吐率：48.95req/s] [内存消耗：1,020.94kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/edit_article/id/11.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689ce8fcd0e2_jpg' => '',
+  '04' => '5689ce8fcd0e2.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T22:41:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upload.html
+[ info ] www.entss.com/admin/upload/upload.html [运行时间：0.065044s][吞吐率：15.37req/s] [内存消耗：2,653.33kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/edit_article/id/11.html',
+  'content-length' => '37935',
+  'content-type' => 'multipart/form-data; boundary=---------------------------292112072324624',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upload_html' => '',
+  'id' => 'WU_FILE_0',
+  'name' => 'QQ截图20170730164216.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Sun Jul 30 2017 16:42:18 GMT+0800',
+  'size' => '37159',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Upload->upload[ D:\phpStudy\WWW\entss\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001755s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009556s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001056s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:41:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/edit_article/id/edit_article
+[ info ] www.entss.com/admin/article/edit_article/id/edit_article [运行时间：0.062142s][吞吐率：16.09req/s] [内存消耗：2,802.17kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/edit_article/id/11.html',
+  'content-length' => '33775',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/edit_article/id/edit_article' => '',
+  'id' => 'edit_article',
+  'title' => '编写高质量的代码，从命名入手',
+  'cate_id' => '1',
+  'keyword' => '代码',
+  'remark' => '笔者从事开发多年，有这样一种感觉，查看一些开源项目，如Spring、Apache Common等源码是一件赏心悦目的事情，究其原因，无外两点：1）代码质量非常高；2）命名特别规范（这可能跟老外的英语水平有关）。',
+  'photo' => '20170902\\26c2ee15977bd8975c02ed3690128102.jpg',
+  'file' => '',
+  'content' => '<p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">笔者从事开发多年，有这样一种感觉，查看一些开源项目，如Spring、Apache Common等源码是一件赏心悦目的事情，究其原因，无外两点：1）代码质量非常高；2）命名特别规范（这可能跟老外的英语水平有关）。</p><p style="text-align:center"><br/></p><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">要写高质量的代码，不是一件容易的事，需要长年累月的锻炼，是一个量变到质变的过程，但要写好命名，只需要有比较好的英语语法基础和一种自我意识即可轻松达到。<strong style="margin: 0px; padding: 0px;">本博文将会结合本人的开发经验，总结出若干命名规则，这些命名规则纯属个人的使用习惯，不代表是一种理想的规则，在这里列举出来，供大家交流讨论。</strong></p><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">1.切忌使用没有任何意义的英语字母进行命名</h2><pre class="brush: java; gutter: true" style="margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">&nbsp;for(int&nbsp;i=0;&nbsp;i&lt;10;&nbsp;i++)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;}</pre><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">这是在很多教Java基本语法的书上常见的代码片断，作为教学材料，这样写无可厚非，但作为真正的代码编写，<span class="wp_keywordlink"><a href="http://www.codeceo.com/" title="程序员" target="_blank" style="color: rgb(0, 136, 219); text-decoration: none; cursor: pointer;">程序员</a></span>必须要养成良好的习惯，不要使用这种没有任何含义的命名方式，这里可以使用“index”。</p><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">2.切忌使用拼音，甚至是拼音首字母组合</h2><pre class="brush: c; gutter: true" style="margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">cishu&nbsp;=5;&nbsp;//&nbsp;循环的次数
+zzje&nbsp;=&nbsp;1000.00&nbsp;//&nbsp;转账金额</pre><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">笔者在做代码检查的时候，无数次遇到过这样的命名，使人哭笑不得</p><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">3.要使用英文，而且要使用准确的英语，无论是拼写还是语法</h2><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>名词单数，必须使用单数英文，如Account、Customer。</p></li><li><p>对于数组，列表等对象集合的命名，必须使用复数，而且最好按照英文的语法基础知识使用准确的复数形式，如 List<account>accounts、Set<strategy>strategies。</strategy></account></p></li><li><p>对于boolean值的属性，很多开发人员习惯使用isXXX，如isClose（是否关闭），但这里有两点建议：1）最好不要带“is”，因为JavaBean的规范，为属性生成get/set方法的时候，会用“get/set/is”，上面的例子，生成get/set方法就会变成“getIsClose/isIsClose/getIsClose”，非常别扭；2）由于boolean值通常反映“是否”，所以准确的用法，应该是是用“形容词”，上面的例子，最终应该被改为 closed，那么get/set方法就是“getClosed/isColsed/setClosed”，非常符合英语阅读习惯。</p></li></ul><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">4.方法名的命名，需要使用“动宾结构短语”或“是动词+表语结构短语”</h2><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">笔者曾看到过千奇百怪的方法命名，有些使用名词，有些甚至是“名词+动词”，而且，如果宾语是一个对象集合，还是最好使用复数：</p><pre class="brush: java; gutter: true" style="margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">createOrder(Order&nbsp;order)&nbsp;//good
+orderCreate(Order&nbsp;order)&nbsp;//bad
+removeOrders(List&nbsp;orders)&nbsp;//good
+removeOrder(List&nbsp;order)&nbsp;//bad</pre><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">5.对于常见的“增删改查”方法，命名最好要谨慎：</h2><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>增加：最常见使用create和add，但最好根据英语的语义进行区分，这有助于理解，create代表创建，add代表增加。比如，要创建一个Student，用createStudent要比用addStudent好，为什么？想想如果有个类叫Clazz(班级，避开Java关键字），现在要把一个Student加入到一个Clazz，Clazz很容易就定义了一个 addStudent（Student student)的方法，那么就比较容易混淆。</p></li><li><p>修改：常见的有alter、update、modify，个人觉得modify最准确。</p></li><li><p>查询：对于获取单个对象，可以用get或load，但个人建议用get，解释请见第7点的说明，对于不分条件列举，用list，对于有条件查询，用search（最好不要用find，find在英文了强调结果，是“找到”的意思，你提供一个“查询”方法，不保证输入的条件总能“找到”结果）。</p></li><li><p>删除：常见的有delete和remove，但删除建议用delete，因为remove有“移除”的意思，参考Clazz的例子就可以理解，从班级移除一个学生，会用removeStudent。</p></li></ul><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">6.宁愿方法名冗长，也不要使用让人费解的简写</h2><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">笔者曾经遇到一个方法，判断“支付账户是否与收款账户相同”，结果我看到一个这样的命名：</p><pre class="brush: java; gutter: true" style="margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">checkIsOrderingAccCollAccSame(...)&nbsp;//&nbsp;很难理解，我马上把它改为：
+isOrderingAccountSameAsCollectionAccount(...)&nbsp;//&nbsp;虽然有点长，但非常容易阅读，而且这种情况总是出现得比较少。</pre><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">7.如果你在设计业务系统，最好不要使用技术化的术语去命名</h2><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">笔者曾经工作的公司曾经制订这样的命名规则，接口必须要以“I”开头，数据传输对象必须以“DTO”作为后缀，数据访问对象必须以“DAO”作为后缀，领域对象必须以“DO”作为后缀，我之所以不建议这种做法，是希望设计人员从一开始就引导开发人员，要从“业务”出发考虑问题，而不要从“技术”出发。</p><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">所以，接口不需要非得以“I”开头，只要其实现类以“Impl”结尾即可（注：笔者认为接口是与细节无关的，与技术无关，但实现类是实现相关的，用技术化术语无可口非），而数据传输对象，其实无非就是保存一个对象的信息，因此可以用“**Info”，如CustomerInfo，领域对象本身就是业务的核心，所以还是以其真实名称出现，比如Account、Customer，至于“DAO”，这一个词来源于J2ee的<span class="wp_keywordlink"><a href="http://www.codeceo.com/article/category/develop/design-patterns" title="设计模式" target="_blank" style="color: rgb(0, 136, 219); text-decoration: none; cursor: pointer;">设计模式</a></span>，笔者在之前的项目使用“***Repository”命名，意味“***的仓库”，如AccountRepository.</p><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">关于“Repository”这个词的命名，是来源于Eric Evans的《Domain-Driven Design》一书的仓库概念，Eric Evans对Repository的概念定义是：领域对象的概念性集合，个人认为这个命名非常的贴切，它让程序员完全从技术的思维中摆脱出来，站在业务的角度思考问题。说到这里，可能有人会反驳：像Spring、Hibernate这些优秀的框架，不是都在用“I”作为接口开头，用“DAO”来命名数据访问对象吗？没错！但千万别忽略了语义的上下文，Spring、Hibernate框架都是纯技术框架，我这里所说的场景是设计业务系统。</p><h2 style="margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">8.成员变量不要重复类的名称</h2><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">例如，很多人喜欢在Account对象的成员变量中使用accountId，accountNumber等命名，其实没有必要，想想成员变量不会鼓孤立的存在，你引用accountId，必须是account.accountId，用account.id已经足够清晰了。</p><p style="margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">“勿以善小而不为，勿以恶小而为之”、“细节决定成败”，有太多的名言告诉我们，要注重细节。一个优秀的程序员，必须要有坚实的基础，而对于命名规则这样容易掌握的基础，我们何不现行？</p><p><br/></p>',
+  'is_tui' => '1',
+  'status' => '0',
+  'views' => '1',
+  'writer' => '轮回',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->edit_article[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001880s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008786s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006905s ]
+[ sql ] [ SQL ] UPDATE `think_article`  SET `title`='编写高质量的代码，从命名入手',`cate_id`=1,`keyword`='代码',`remark`='笔者从事开发多年，有这样一种感觉，查看一些开源项目，如Spring、Apache Common等源码是一件赏心悦目的事情，究其原因，无外两点：1）代码质量非常高；2）命名特别规范（这可能跟老外的英语水平有关）。',`photo`='20170902\\26c2ee15977bd8975c02ed3690128102.jpg',`content`='<p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">笔者从事开发多年，有这样一种感觉，查看一些开源项目，如Spring、Apache Common等源码是一件赏心悦目的事情，究其原因，无外两点：1）代码质量非常高；2）命名特别规范（这可能跟老外的英语水平有关）。</p><p style=\"text-align:center\"><br/></p><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">要写高质量的代码，不是一件容易的事，需要长年累月的锻炼，是一个量变到质变的过程，但要写好命名，只需要有比较好的英语语法基础和一种自我意识即可轻松达到。<strong style=\"margin: 0px; padding: 0px;\">本博文将会结合本人的开发经验，总结出若干命名规则，这些命名规则纯属个人的使用习惯，不代表是一种理想的规则，在这里列举出来，供大家交流讨论。</strong></p><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">1.切忌使用没有任何意义的英语字母进行命名</h2><pre class=\"brush: java; gutter: true\" style=\"margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;\">&nbsp;for(int&nbsp;i=0;&nbsp;i&lt;10;&nbsp;i++)&nbsp;{\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...\n&nbsp;&nbsp;&nbsp;&nbsp;}</pre><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">这是在很多教Java基本语法的书上常见的代码片断，作为教学材料，这样写无可厚非，但作为真正的代码编写，<span class=\"wp_keywordlink\"><a href=\"http://www.codeceo.com/\" title=\"程序员\" target=\"_blank\" style=\"color: rgb(0, 136, 219); text-decoration: none; cursor: pointer;\">程序员</a></span>必须要养成良好的习惯，不要使用这种没有任何含义的命名方式，这里可以使用“index”。</p><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">2.切忌使用拼音，甚至是拼音首字母组合</h2><pre class=\"brush: c; gutter: true\" style=\"margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;\">cishu&nbsp;=5;&nbsp;//&nbsp;循环的次数\nzzje&nbsp;=&nbsp;1000.00&nbsp;//&nbsp;转账金额</pre><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">笔者在做代码检查的时候，无数次遇到过这样的命名，使人哭笑不得</p><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">3.要使用英文，而且要使用准确的英语，无论是拼写还是语法</h2><ul class=\" list-paddingleft-2\" style=\"list-style-type: none;\"><li><p>名词单数，必须使用单数英文，如Account、Customer。</p></li><li><p>对于数组，列表等对象集合的命名，必须使用复数，而且最好按照英文的语法基础知识使用准确的复数形式，如 List<account>accounts、Set<strategy>strategies。</strategy></account></p></li><li><p>对于boolean值的属性，很多开发人员习惯使用isXXX，如isClose（是否关闭），但这里有两点建议：1）最好不要带“is”，因为JavaBean的规范，为属性生成get/set方法的时候，会用“get/set/is”，上面的例子，生成get/set方法就会变成“getIsClose/isIsClose/getIsClose”，非常别扭；2）由于boolean值通常反映“是否”，所以准确的用法，应该是是用“形容词”，上面的例子，最终应该被改为 closed，那么get/set方法就是“getClosed/isColsed/setClosed”，非常符合英语阅读习惯。</p></li></ul><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">4.方法名的命名，需要使用“动宾结构短语”或“是动词+表语结构短语”</h2><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">笔者曾看到过千奇百怪的方法命名，有些使用名词，有些甚至是“名词+动词”，而且，如果宾语是一个对象集合，还是最好使用复数：</p><pre class=\"brush: java; gutter: true\" style=\"margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;\">createOrder(Order&nbsp;order)&nbsp;//good\norderCreate(Order&nbsp;order)&nbsp;//bad\nremoveOrders(List&nbsp;orders)&nbsp;//good\nremoveOrder(List&nbsp;order)&nbsp;//bad</pre><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">5.对于常见的“增删改查”方法，命名最好要谨慎：</h2><ul class=\" list-paddingleft-2\" style=\"list-style-type: none;\"><li><p>增加：最常见使用create和add，但最好根据英语的语义进行区分，这有助于理解，create代表创建，add代表增加。比如，要创建一个Student，用createStudent要比用addStudent好，为什么？想想如果有个类叫Clazz(班级，避开Java关键字），现在要把一个Student加入到一个Clazz，Clazz很容易就定义了一个 addStudent（Student student)的方法，那么就比较容易混淆。</p></li><li><p>修改：常见的有alter、update、modify，个人觉得modify最准确。</p></li><li><p>查询：对于获取单个对象，可以用get或load，但个人建议用get，解释请见第7点的说明，对于不分条件列举，用list，对于有条件查询，用search（最好不要用find，find在英文了强调结果，是“找到”的意思，你提供一个“查询”方法，不保证输入的条件总能“找到”结果）。</p></li><li><p>删除：常见的有delete和remove，但删除建议用delete，因为remove有“移除”的意思，参考Clazz的例子就可以理解，从班级移除一个学生，会用removeStudent。</p></li></ul><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">6.宁愿方法名冗长，也不要使用让人费解的简写</h2><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">笔者曾经遇到一个方法，判断“支付账户是否与收款账户相同”，结果我看到一个这样的命名：</p><pre class=\"brush: java; gutter: true\" style=\"margin: 15px auto; padding: 10px 15px; word-break: break-all; word-wrap: break-word; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: 20px; font-family: &#39;courier new&#39;; border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(221, 221, 221); background-color: rgb(251, 251, 251); color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;\">checkIsOrderingAccCollAccSame(...)&nbsp;//&nbsp;很难理解，我马上把它改为：\nisOrderingAccountSameAsCollectionAccount(...)&nbsp;//&nbsp;虽然有点长，但非常容易阅读，而且这种情况总是出现得比较少。</pre><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">7.如果你在设计业务系统，最好不要使用技术化的术语去命名</h2><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">笔者曾经工作的公司曾经制订这样的命名规则，接口必须要以“I”开头，数据传输对象必须以“DTO”作为后缀，数据访问对象必须以“DAO”作为后缀，领域对象必须以“DO”作为后缀，我之所以不建议这种做法，是希望设计人员从一开始就引导开发人员，要从“业务”出发考虑问题，而不要从“技术”出发。</p><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">所以，接口不需要非得以“I”开头，只要其实现类以“Impl”结尾即可（注：笔者认为接口是与细节无关的，与技术无关，但实现类是实现相关的，用技术化术语无可口非），而数据传输对象，其实无非就是保存一个对象的信息，因此可以用“**Info”，如CustomerInfo，领域对象本身就是业务的核心，所以还是以其真实名称出现，比如Account、Customer，至于“DAO”，这一个词来源于J2ee的<span class=\"wp_keywordlink\"><a href=\"http://www.codeceo.com/article/category/develop/design-patterns\" title=\"设计模式\" target=\"_blank\" style=\"color: rgb(0, 136, 219); text-decoration: none; cursor: pointer;\">设计模式</a></span>，笔者在之前的项目使用“***Repository”命名，意味“***的仓库”，如AccountRepository.</p><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">关于“Repository”这个词的命名，是来源于Eric Evans的《Domain-Driven Design》一书的仓库概念，Eric Evans对Repository的概念定义是：领域对象的概念性集合，个人认为这个命名非常的贴切，它让程序员完全从技术的思维中摆脱出来，站在业务的角度思考问题。说到这里，可能有人会反驳：像Spring、Hibernate这些优秀的框架，不是都在用“I”作为接口开头，用“DAO”来命名数据访问对象吗？没错！但千万别忽略了语义的上下文，Spring、Hibernate框架都是纯技术框架，我这里所说的场景是设计业务系统。</p><h2 style=\"margin: 30px 0px 14px; padding: 0px 0px 5px; color: rgb(34, 34, 34); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; font-size: 18px; font-family: &#39;microsoft yahei&#39;; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">8.成员变量不要重复类的名称</h2><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">例如，很多人喜欢在Account对象的成员变量中使用accountId，accountNumber等命名，其实没有必要，想想成员变量不会鼓孤立的存在，你引用accountId，必须是account.accountId，用account.id已经足够清晰了。</p><p style=\"margin: 0px 0px 15px; padding: 0px; color: rgb(68, 68, 68); font-family: &#39;microsoft yahei&#39;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">“勿以善小而不为，勿以恶小而为之”、“细节决定成败”，有太多的名言告诉我们，要注重细节。一个优秀的程序员，必须要有坚实的基础，而对于命名规则这样容易掌握的基础，我们何不现行？</p><p><br/></p>',`is_tui`=1,`status`=0,`views`=1,`writer`='轮回',`update_time`=1504363285  WHERE  `id` = 11 [ RunTime:0.000987s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:41:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] www.entss.com/admin/article/index.html [运行时间：0.067971s][吞吐率：14.71req/s] [内存消耗：2,742.83kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/edit_article/id/11.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+  7 => 'val',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001797s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.007825s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006897s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000848s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:41:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?page=1&key=
+[ info ] www.entss.com/admin/article/index.html?page=1&key= [运行时间：0.089945s][吞吐率：11.12req/s] [内存消耗：2,793.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '1',
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002300s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009508s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.002557s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:41:27+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689cee8cf466.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689cee8cf466.jpg [运行时间：0.031618s][吞吐率：31.63req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689cee8cf466_jpg' => '',
+  '04' => '5689cee8cf466.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-02T22:44:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/edit_article/id/52.html
+[ info ] www.entss.com/admin/article/edit_article/id/52.html [运行时间：0.081130s][吞吐率：12.33req/s] [内存消耗：2,721.55kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/edit_article/id/52_html' => '',
+  'id' => '52',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->edit_article[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\edit_article.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'cate',
+  5 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002234s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.009409s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article_cate` [ RunTime:0.006479s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article_cate` ORDER BY id asc [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006778s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:44:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/edit_article/id/edit_article
+[ info ] www.entss.com/admin/article/edit_article/id/edit_article [运行时间：0.061772s][吞吐率：16.19req/s] [内存消耗：2,691.58kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/edit_article/id/52.html',
+  'content-length' => '10486',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/edit_article/id/edit_article' => '',
+  'id' => 'edit_article',
+  'title' => 'PHP实现时间轴函数',
+  'cate_id' => '5',
+  'keyword' => '时间轴',
+  'remark' => '本文介绍如何用PHP将时间显示为“刚刚”、“5分钟前”、“昨天10:23”等时间轴形式，而不是直接显示具体日期和时间。',
+  'photo' => '20170416\\20bda129efdb56d4bee0629d616a2d99.jpg',
+  'file' => '',
+  'content' => '<p>本文将介绍如何实现基于时间轴的时间的转换。</p><p>首先我们要明白时间的几个函数：</p><p>time():返回当前的 Unix 时间戳</p><p>date():格式化一个本地时间／日期。</p><p>应用举例：</p><pre style="margin: 6px auto; padding: 4px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 215, 215); font-size: 12px; white-space: pre-wrap; word-wrap: break-word; color: rgb(66, 66, 66); line-height: 21px; background-color: rgb(250, 250, 250);"><code class="php" style="margin: 0px; padding: 0px;">date(<span class="php__string2" style="margin: 0px; padding: 0px; color: fuchsia;">&quot;Y-m-d&nbsp;H:i:s&quot;</span>,time());&nbsp;<br style="margin: 0px; padding: 0px;"/></code></pre><p>格式化当前时间，输出：2010-10-11 05:27:35</p><p>strtotime():将任何英文文本的日期时间描述解析为 Unix 时间戳。</p><p>应用举例：</p><pre style="margin: 6px auto; padding: 4px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 215, 215); font-size: 12px; white-space: pre-wrap; word-wrap: break-word; color: rgb(66, 66, 66); line-height: 21px; background-color: rgb(250, 250, 250);"><code class="php" style="margin: 0px; padding: 0px;"><span class="php__keyword" style="margin: 0px; padding: 0px; color: navy; font-weight: bold;">echo</span>&nbsp;strtotime(<span class="php__string2" style="margin: 0px; padding: 0px; color: fuchsia;">&quot;+1&nbsp;day&quot;</span>),&nbsp;<span class="php__string2" style="margin: 0px; padding: 0px; color: fuchsia;">&quot;n&quot;</span>;&nbsp;<br style="margin: 0px; padding: 0px;"/></code></pre><p>输出1天前的时间戳：1286861475</p><p>date_default_timezone_set():设定要用的默认时区。</p><p>一般我们设置北京时间：date_default_timezone_set(&quot;PRC&quot;);</p><p>理解上面几个函数后我们来写时间轴函数：</p><p>该函数的原理就是将系统当前时间与目标时间比较，得到一个差值，再将差值与时间范围（转换成秒）比较，根据其处在时间轴的范围输出不同的结果（如：5分钟前）。为了便于计算，我们将时间都转换成Unix时间戳。</p><pre class="brush:php;toolbar:false">function&nbsp;tranTime($time)&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;$rtime&nbsp;=&nbsp;date(&quot;Y-m-d&nbsp;H:i&quot;,&nbsp;$time);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;$htime&nbsp;=&nbsp;date(&quot;H:i&quot;,&nbsp;$time);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;$time&nbsp;=&nbsp;time()&nbsp;-&nbsp;$time;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;($time&nbsp;&lt;&nbsp;60)&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;&#39;刚刚&#39;;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;elseif&nbsp;($time&nbsp;&lt;&nbsp;60&nbsp;*&nbsp;60)&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$min&nbsp;=&nbsp;floor($time&nbsp;/&nbsp;60);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;$min&nbsp;.&nbsp;&#39;分钟前&#39;;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;elseif&nbsp;($time&nbsp;&lt;&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;24)&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h&nbsp;=&nbsp;floor($time&nbsp;/&nbsp;(60&nbsp;*&nbsp;60));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;$h&nbsp;.&nbsp;&#39;小时前&nbsp;&#39;&nbsp;.&nbsp;$htime;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;elseif&nbsp;($time&nbsp;&lt;&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;3)&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$d&nbsp;=&nbsp;floor($time&nbsp;/&nbsp;(60&nbsp;*&nbsp;60&nbsp;*&nbsp;24));&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;($d&nbsp;==&nbsp;1)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;&#39;昨天&nbsp;&#39;&nbsp;.&nbsp;$rtime;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;&#39;前天&nbsp;&#39;&nbsp;.&nbsp;$rtime;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;$rtime;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$str;&nbsp;
+}</pre><p>&nbsp; &nbsp; 函数tranTime()中的参数$time必须为Unix时间戳，如果不是请先用strtotime()将其转换成Unix时间戳。上面的代码一看就明白了，不用再多述。</p><p>调用函数，直接输出：</p><pre style="margin: 6px auto; padding: 4px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 215, 215); font-size: 12px; white-space: pre-wrap; word-wrap: break-word; color: rgb(66, 66, 66); line-height: 21px; background-color: rgb(250, 250, 250);"><code class="php" style="margin: 0px; padding: 0px;"><span class="php__keyword" style="margin: 0px; padding: 0px; color: navy; font-weight: bold;">$</span><span class="php__variable" style="margin: 0px; padding: 0px; color: rgb(64, 64, 194);">times</span>=<span class="php__string2" style="margin: 0px; padding: 0px; color: fuchsia;">&quot;1286861696&nbsp;&quot;</span>;&nbsp;<br style="margin: 0px; padding: 0px;"/><span class="php__keyword" style="margin: 0px; padding: 0px; color: navy; font-weight: bold;">echo</span>&nbsp;tranTime(<span class="php__keyword" style="margin: 0px; padding: 0px; color: navy; font-weight: bold;">$</span><span class="php__variable" style="margin: 0px; padding: 0px; color: rgb(64, 64, 194);">times</span>);&nbsp;</code></pre><p><br/></p>',
+  'is_tui' => '1',
+  'status' => '1',
+  'views' => '1',
+  'writer' => '轮回',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->edit_article[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001876s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008678s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005845s ]
+[ sql ] [ SQL ] UPDATE `think_article`  SET `title`='PHP实现时间轴函数',`cate_id`=5,`keyword`='时间轴',`remark`='本文介绍如何用PHP将时间显示为“刚刚”、“5分钟前”、“昨天10:23”等时间轴形式，而不是直接显示具体日期和时间。',`photo`='20170416\\20bda129efdb56d4bee0629d616a2d99.jpg',`content`='<p>本文将介绍如何实现基于时间轴的时间的转换。</p><p>首先我们要明白时间的几个函数：</p><p>time():返回当前的 Unix 时间戳</p><p>date():格式化一个本地时间／日期。</p><p>应用举例：</p><pre style=\"margin: 6px auto; padding: 4px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 215, 215); font-size: 12px; white-space: pre-wrap; word-wrap: break-word; color: rgb(66, 66, 66); line-height: 21px; background-color: rgb(250, 250, 250);\"><code class=\"php\" style=\"margin: 0px; padding: 0px;\">date(<span class=\"php__string2\" style=\"margin: 0px; padding: 0px; color: fuchsia;\">&quot;Y-m-d&nbsp;H:i:s&quot;</span>,time());&nbsp;<br style=\"margin: 0px; padding: 0px;\"/></code></pre><p>格式化当前时间，输出：2010-10-11 05:27:35</p><p>strtotime():将任何英文文本的日期时间描述解析为 Unix 时间戳。</p><p>应用举例：</p><pre style=\"margin: 6px auto; padding: 4px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 215, 215); font-size: 12px; white-space: pre-wrap; word-wrap: break-word; color: rgb(66, 66, 66); line-height: 21px; background-color: rgb(250, 250, 250);\"><code class=\"php\" style=\"margin: 0px; padding: 0px;\"><span class=\"php__keyword\" style=\"margin: 0px; padding: 0px; color: navy; font-weight: bold;\">echo</span>&nbsp;strtotime(<span class=\"php__string2\" style=\"margin: 0px; padding: 0px; color: fuchsia;\">&quot;+1&nbsp;day&quot;</span>),&nbsp;<span class=\"php__string2\" style=\"margin: 0px; padding: 0px; color: fuchsia;\">&quot;n&quot;</span>;&nbsp;<br style=\"margin: 0px; padding: 0px;\"/></code></pre><p>输出1天前的时间戳：1286861475</p><p>date_default_timezone_set():设定要用的默认时区。</p><p>一般我们设置北京时间：date_default_timezone_set(&quot;PRC&quot;);</p><p>理解上面几个函数后我们来写时间轴函数：</p><p>该函数的原理就是将系统当前时间与目标时间比较，得到一个差值，再将差值与时间范围（转换成秒）比较，根据其处在时间轴的范围输出不同的结果（如：5分钟前）。为了便于计算，我们将时间都转换成Unix时间戳。</p><pre class=\"brush:php;toolbar:false\">function&nbsp;tranTime($time)&nbsp;{&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;$rtime&nbsp;=&nbsp;date(&quot;Y-m-d&nbsp;H:i&quot;,&nbsp;$time);&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;$htime&nbsp;=&nbsp;date(&quot;H:i&quot;,&nbsp;$time);&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;$time&nbsp;=&nbsp;time()&nbsp;-&nbsp;$time;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;($time&nbsp;&lt;&nbsp;60)&nbsp;{&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;&#39;刚刚&#39;;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;elseif&nbsp;($time&nbsp;&lt;&nbsp;60&nbsp;*&nbsp;60)&nbsp;{&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$min&nbsp;=&nbsp;floor($time&nbsp;/&nbsp;60);&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;$min&nbsp;.&nbsp;&#39;分钟前&#39;;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;elseif&nbsp;($time&nbsp;&lt;&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;24)&nbsp;{&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h&nbsp;=&nbsp;floor($time&nbsp;/&nbsp;(60&nbsp;*&nbsp;60));&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;$h&nbsp;.&nbsp;&#39;小时前&nbsp;&#39;&nbsp;.&nbsp;$htime;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;elseif&nbsp;($time&nbsp;&lt;&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;24&nbsp;*&nbsp;3)&nbsp;{&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$d&nbsp;=&nbsp;floor($time&nbsp;/&nbsp;(60&nbsp;*&nbsp;60&nbsp;*&nbsp;24));&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;($d&nbsp;==&nbsp;1)&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;&#39;昨天&nbsp;&#39;&nbsp;.&nbsp;$rtime;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;&#39;前天&nbsp;&#39;&nbsp;.&nbsp;$rtime;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;{&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$str&nbsp;=&nbsp;$rtime;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;$str;&nbsp;\n}</pre><p>&nbsp; &nbsp; 函数tranTime()中的参数$time必须为Unix时间戳，如果不是请先用strtotime()将其转换成Unix时间戳。上面的代码一看就明白了，不用再多述。</p><p>调用函数，直接输出：</p><pre style=\"margin: 6px auto; padding: 4px; border-width: 1px 1px 1px 5px; border-style: solid; border-color: rgb(215, 215, 215); font-size: 12px; white-space: pre-wrap; word-wrap: break-word; color: rgb(66, 66, 66); line-height: 21px; background-color: rgb(250, 250, 250);\"><code class=\"php\" style=\"margin: 0px; padding: 0px;\"><span class=\"php__keyword\" style=\"margin: 0px; padding: 0px; color: navy; font-weight: bold;\">$</span><span class=\"php__variable\" style=\"margin: 0px; padding: 0px; color: rgb(64, 64, 194);\">times</span>=<span class=\"php__string2\" style=\"margin: 0px; padding: 0px; color: fuchsia;\">&quot;1286861696&nbsp;&quot;</span>;&nbsp;<br style=\"margin: 0px; padding: 0px;\"/><span class=\"php__keyword\" style=\"margin: 0px; padding: 0px; color: navy; font-weight: bold;\">echo</span>&nbsp;tranTime(<span class=\"php__keyword\" style=\"margin: 0px; padding: 0px; color: navy; font-weight: bold;\">$</span><span class=\"php__variable\" style=\"margin: 0px; padding: 0px; color: rgb(64, 64, 194);\">times</span>);&nbsp;</code></pre><p><br/></p>',`is_tui`=1,`status`=1,`views`=1,`writer`='轮回',`update_time`=1504363480  WHERE  `id` = 52 [ RunTime:0.000672s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:44:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ info ] www.entss.com/admin/article/index.html [运行时间：0.073166s][吞吐率：13.67req/s] [内存消耗：2,742.83kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/edit_article/id/52.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\entss\public/../application/admin\view\article\index.html [ array (
+  0 => 'username',
+  1 => 'portrait',
+  2 => 'rolename',
+  3 => 'menu',
+  4 => 'Nowpage',
+  5 => 'allpage',
+  6 => 'count',
+  7 => 'val',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001917s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.008589s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.002090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.002540s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:44:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?page=1&key=
+[ info ] www.entss.com/admin/article/index.html?page=1&key= [运行时间：0.074859s][吞吐率：13.36req/s] [内存消耗：2,793.00kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '1',
+  'key' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\phpStudy\WWW\entss\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001682s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.012557s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  (  status = 1 ) ORDER BY `sort` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008494s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `think_article`.*,`name` FROM `think_article` INNER JOIN `think_article_cate` `think_article_cate` ON `think_article`.`cate_id`=`think_article_cate`.`id` ORDER BY id desc LIMIT 0,10 [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2017-09-02T22:44:42+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/images/images/2016-01-04/5689cee8cf466.jpg
+[ info ] www.entss.com/uploads/images/images/2016-01-04/5689cee8cf466.jpg [运行时间：0.026090s][吞吐率：38.33req/s] [内存消耗：1,020.92kb] [文件加载：25]
+[ info ] [ LANG ] D:\phpStudy\WWW\entss\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'images',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.entss.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.entss.com/admin/article/index.html',
+  'cookie' => '__utma=264378203.190932952.1504229567.1504229567.1504229567.1; __utmz=264378203.1504229567.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=6495702016; PHPSESSID=c1j861v87n5os8puddjj3n8gc0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/images/images/2016-01-04/5689cee8cf466_jpg' => '',
+  '04' => '5689cee8cf466.jpg',
+)
+[ info ] [ LOG ] INIT File
